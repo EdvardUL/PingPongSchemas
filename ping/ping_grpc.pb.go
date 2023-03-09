@@ -4,7 +4,7 @@
 // - protoc             v3.12.4
 // source: ping/ping.proto
 
-package pingpong_schemas
+package PingPongSchemas
 
 import (
 	context "context"

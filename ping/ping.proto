@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "../pingpong_schemas";
+option go_package = "github.com/EdvardUL/PingPongSchemas";
 
 package grpcPing;
 
