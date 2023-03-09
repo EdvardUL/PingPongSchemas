@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option go_package = "../pingpong_schemas";
+
+package grpcPing;
+
+service PingService {
+  rpc Ping (PingMessage) returns (Empty) {}
+}
+
+message PingMessage{
+    string msg = 1;
+}
+
+message Empty{
+}
