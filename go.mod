@@ -1,9 +1,9 @@
-module pingpong_schemas
+module github.com/EdvardUL/PingPongSchemas
 
 go 1.20
 
 require (
-	github.com/golang/protobuf v1.5.2
+	github.com/golang/protobuf v1.5.3
 	google.golang.org/grpc v1.53.0
 )
 
@@ -14,4 +14,3 @@ require (
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 	google.golang.org/protobuf v1.28.1 // indirect
 )
- 
